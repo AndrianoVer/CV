@@ -1,0 +1,44 @@
+.skills-wrap .item {
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.skills-wrap .level-title {
+	font-size: 14px;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
+.skills-wrap .level-bar {
+	height: 12px;
+	background: #f5f5f5;
+}
+
+.skills-wrap .level-bar-inner {
+	height: 12px;
+	background: #7bc2d3;
+}
+
+.level-bar .level-bar-inner[data-level='50%'] {
+	width: 50%;
+}
+
+.level-bar .level-bar-inner[data-level='70%'] {
+	width: 70%;
+}
+
+.level-bar .level-bar-inner[data-level='75%'] {
+	width: 75%;
+}
+
+.level-bar .level-bar-inner[data-level='80%'] {
+	width: 80%;
+}
+
+.level-bar .level-bar-inner[data-level='85%'] {
+	width: 85%;
+}
+
+.level-bar .level-bar-inner[data-level='90%'] {
+	width: 90%;
+}
